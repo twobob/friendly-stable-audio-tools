@@ -323,7 +323,7 @@ you need to unwrap the model checkpoint for using the next stage training.
 
 ```bash
 CKPT_PATH="/path/to/wrapped_ckpt/last.ckpt"
-# NOTE: file extension ".ckpt" will be automatically added to the end of OUTPOUT_DIR name
+# NOTE: file extension ".ckpt" will be automatically added to the end of OUTPUT_DIR name
 OUTPUT_PATH="/path/to/output_name/unwrapped_last"
 
 singularity exec --nv --pwd $ROOT_DIR -B $ROOT_DIR \
